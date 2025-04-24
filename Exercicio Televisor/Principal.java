@@ -6,7 +6,7 @@ public class Principal {
        
         controle.imprimir();
 
-        controle.ligar();
+        tv.ligar();
         controle.imprimir();
        
         controle.trocarCanal(5);
@@ -15,7 +15,12 @@ public class Principal {
         controle.diminuirVolume();
         controle.imprimir();
 
-        controle.desligar();
+        tv.trocarCanal();
+        tv.aumentarVolume();
+        tv.aumentarVolume();
+        controle.imprimir();
+
+        tv.desligar();
         controle.imprimir();
     }
 }
